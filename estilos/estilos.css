@@ -1,0 +1,352 @@
+* {
+    padding: 0rem;
+    margin: 0rem;
+}
+
+html {
+        font-size: 62.5%;
+        background-color: #F9E588;
+}
+
+/*ESTILOS GENERALES*/
+
+h1 {
+    color:  rgb(84, 41, 30);
+    font-size: 10rem;
+    font-family: 'Tilt Prism', cursive;
+}
+
+h2 {
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h5 {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+p {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/*ESTILOS DE NAVEGACION*/
+
+header {
+    background-color: #7AA874;
+}
+
+.h1_container {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid 3px #5f865a;
+}
+
+.arbore_h1 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.arbore-icono {
+    height: 20rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.nav-button {
+    background-color: #5f865a73;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.actuallink {
+    background-color: #495c47;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+/*ESTILOS DEL FOOTER*/
+footer {
+    background-color: #675D50;
+    padding-top: 3.5rem;
+    padding-left: 7rem;
+    padding-bottom: 3.5rem;
+}
+
+.footerh5 {
+    text-decoration: underline 1px solid white;
+}
+
+.footer-links_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/*ESTILOS DE INDEX*/
+
+.indexh2_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.indexh2_div h2 {
+    border-bottom: solid black 2px;
+}
+
+.index_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.index_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.index-h3 {
+    font-weight: bolder;
+    text-decoration: underline solid black 1px;
+}
+
+/*ESTILOS DE INTEGRANTES*/
+
+.integ-main {
+    margin-bottom: 7rem;
+}
+
+.integh2_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.integh2 {
+    border-bottom: solid 2px black;
+}
+
+.integ-text_div {
+    display: flex;
+    justify-content: center;
+}
+
+.cv_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.cv_article1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.cv_article2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.cv-img {
+    height: 50rem;
+    width: 35rem;
+    border: solid 2px #a19352;
+}
+
+.cv-title_div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.cv-title_div h3 {
+    text-decoration: underline 1.5px solid black;
+}
+
+.cv_section_mobile {
+    display: none;
+}
+
+/*ESTILOS DE PROYECTO*/
+
+.nuestraidea-h2_div {
+    display: flex;
+    justify-content: center;
+}
+
+.nuestraidea-h2 {
+    border-bottom: solid 2px black;
+    margin-top: 5rem;
+}
+
+.nuestraidea-text_container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+    margin-top: 7.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 12.5rem;
+}
+
+.nuestraidea-text_div {
+    padding-top: 7.5rem;
+    padding-right: 7.5rem;
+}
+
+.comolovamosahacer {
+    font-weight: 1000;
+}
+
+.nuestraidea-img_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 7.5rem;
+}
+
+.nuestraidea-dineroimg {
+    height: 10rem;
+}
+
+.nuestraidea-vectorimg {
+    height: 10rem;
+    transform: rotate(90deg);
+}
+
+.nuestraidea-arbolimg {
+    height: 10rem;
+}
+
+.nuestraideaimg {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+/*AVANCES Y SITIO DEL PROYECTO*/
+
+.enconstruccion_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25rem;
+    margin-bottom: 25rem;
+}
+
+.enconstruccion_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 755px) {
+    /*NAV*/
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 3.5rem;
+    }
+    h3 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 2.25rem;
+    }
+    .arbore-icono {
+        height: 10rem;
+        padding-top: 3rem;
+    }
+    ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    ul li {
+        width: 100%;
+    }
+    .nav-button {
+        width: 100%;
+    }
+    a {
+        font-size: 2.5rem;
+    }
+    .nuestraidea-img_div {
+        display: none;
+    }
+    .nuestraidea-text_div {
+        padding-top: 0rem;
+        padding-right: 0rem;
+    }
+    /*INTEGRANTES*/
+    .cv_section {
+        display: none;
+    }
+    .cv_section_mobile {
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+    .cv_article_mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .cv-img {
+        height: 30rem;
+        width: 25rem;
+    }
+}
