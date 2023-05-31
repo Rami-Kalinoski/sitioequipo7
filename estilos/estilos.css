@@ -423,7 +423,6 @@ footer {
 
 .figma-link {
     color: black;
-    font-weight: bolder;
 }
 
 .avancesroles-h2_container {
@@ -462,6 +461,17 @@ footer {
     justify-content: center;
     margin-top: 25rem;
     margin-bottom: 25rem;
+}
+
+.proyecto_button {
+    background-color: #d1be6a;
+    border: solid #b3a259 2px;
+    border-radius: 16px;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.proyecto_button a {
+    color: black;
 }
 
 /*RESPONSIVE*/
